@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0a5b4;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #e94c77;
+}
+.buttons {
+    margin-top: 20px;
+}
+.yes-btn, .no-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+.yes-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.no-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    position: absolute; /* We will use JS to make this move */
+}
